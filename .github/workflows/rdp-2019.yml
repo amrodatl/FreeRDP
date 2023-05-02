@@ -5,6 +5,7 @@ on:
 jobs:
   rdp:
     runs-on: windows-2019
+    timeout-minutes: 360
     steps:
        - name: Download repository files
          uses: actions/checkout@v2
